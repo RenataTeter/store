@@ -5,6 +5,7 @@ import Products from "./component/Products";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import { Route, Switch } from "react-router-dom";
+import Product from "./component/Product";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/products" component={Products} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/produkts/:id" component={Product} />
       </Switch>
     </>
   );

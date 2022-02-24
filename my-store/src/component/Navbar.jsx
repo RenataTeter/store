@@ -45,15 +45,15 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="buttons">
-              <a to="/" className="btn btn-outline-dark ">
+              <NavLink to="/" className="btn btn-outline-dark ">
                 Login
-              </a>
-              <a to="/" className="btn btn-outline-dark ms-2">
+              </NavLink>
+              <NavLink to="/" className="btn btn-outline-dark ms-2">
                 Register
-              </a>
-              <a to="/" className="btn btn-outline-dark ms-2">
+              </NavLink>
+              <NavLink to="/" className="btn btn-outline-dark ms-2">
                 Cart (0)
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
